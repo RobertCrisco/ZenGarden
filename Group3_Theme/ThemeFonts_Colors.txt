@@ -1,0 +1,12 @@
+//Default Colors
+$color-white:    #fff;
+$color-black:    #000;
+//Theme Colors
+$color-brown:  #483434;
+$color-blue: #22577A;
+$color-greenDark: #2A8C4A;
+$color-greenMed: #64C27B;
+$color-greenLit: #D0FDD7;
+//Theme Fonts
+$font-header: Helvetica, "Gills Sans", "Trebuchet MS";
+$font-body: Didot, "Bodoni MT", Palatino; (edited) 
