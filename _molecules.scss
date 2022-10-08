@@ -7,6 +7,15 @@
 
 // To use an mixin from the atoms.scss file use the format:  @include atoms.mixinname;
 
+h1 {
+  background: $color-brown;
+  color: $color-white;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 48px;
+  padding: 0.5em 1em;
+}
+
 [role="banner"]
 
 {
