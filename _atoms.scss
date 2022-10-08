@@ -7,8 +7,10 @@
   
 }
 
-@mixin body-text {
-  font-weight: bold;
+@mixin body-text ($font-size: 1em, $line-height:normal) {
+  font-weight: normal;
+  font-size: $font-size;
+  line-height: $line-height;
 }
 
 @mixin button-link {
