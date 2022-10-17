@@ -7,6 +7,17 @@
   
 }
 
+@mixin p-text {
+  font-weight: 500;
+  }
+
+@mixin a-text {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+}
+
 @mixin body-text ($font-size: 1em, $line-height:normal) {
   font-weight: normal;
   font-size: $font-size;
@@ -34,11 +45,12 @@ h2, h3, h3 h4 {
 
 p{
   @include body-text;
+  @include p-text;
 }
 
 a {
   @include body-text;
-  text-decoration: none;
+  @include a-text;
 }
 
 
