@@ -63,3 +63,68 @@ html {
 body {
   padding: 0;
 }/*# sourceMappingURL=style.css.map */
+
+.page-wrapper { 
+
+	
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+		width: 70%;
+	}
+
+header h1 { 
+	
+  display: block;
+	width: 200px;
+
+
+		}
+
+header {
+	padding-top: 20px;
+	
+  
+}
+
+.summary {
+	
+	 
+	text-align: center;
+	float: center;
+  
+	}
+
+
+.preamble {
+	clear: right; 
+	
+	}
+.supporting {	
+	
+  width: 600px;
+	}
+
+.footer { 
+	text-align: center; 
+  
+	}
+
+
+
+
+@media screen and (min-width: 800px) {
+  
+  .sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
+
+  
+  
+}
+  
