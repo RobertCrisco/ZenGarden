@@ -116,31 +116,36 @@ header {
 	}
 
 footer a.zen-validate-html {
-    display: block;
+    padding: 25px;
+    background-position: center;
     background-image: url("images/html-5.png");
     background-repeat: no-repeat;
 }
 
 footer a.zen-validate-css {
-    display: block;
+    padding: 25px;
+    background-position: center;
     background-image: url("images/css-3.png");
     background-repeat: no-repeat;
 }
 
 footer a.zen-license {
-    display: block;
+    padding: 25px;
+    background-position: center;
     background-image: url("images/cc.png");
     background-repeat: no-repeat;
 }
 
 footer a.zen-accessibility {
-    display: block;
+    padding: 25px;
+    background-position: center;
     background-image: url("images/info.png");
     background-repeat: no-repeat;
 }
 
 footer a.zen-github {
-    display: block;
+    padding: 25px;
+    background-position: center;
     background-image: url("images/github.png");
     background-repeat: no-repeat;
 }
