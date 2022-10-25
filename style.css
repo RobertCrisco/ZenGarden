@@ -118,6 +118,30 @@ footer a.zen-validate-html {
     background-repeat: no-repeat;
 }
 
+footer a.zen-validate-css {
+    display: block;
+    background-image: url("images/cc-3.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-license {
+    display: block;
+    background-image: url("images/cc.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-accessibility {
+    display: block;
+    background-image: url("images/info.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-github {
+    display: block;
+    background-image: url("images/github-sign.png");
+    background-repeat: no-repeat;
+}
+
 
 
 
