@@ -112,6 +112,12 @@ header {
   
 	}
 
+footer a.zen-validate-html {
+    display: block;
+    background-image: url("images/cc.png");
+    background-repeat: no-repeat;
+}
+
 
 
 
