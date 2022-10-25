@@ -109,18 +109,21 @@ header {
 
 .footer { 
 	text-align: center; 
+	 display: flex;
+  	justify-content: left;
+	
   
 	}
 
 footer a.zen-validate-html {
     display: block;
-    background-image: url("images/cc.png");
+    background-image: url("images/html-5.png");
     background-repeat: no-repeat;
 }
 
 footer a.zen-validate-css {
     display: block;
-    background-image: url("images/cc-3.png");
+    background-image: url("images/css-3.png");
     background-repeat: no-repeat;
 }
 
