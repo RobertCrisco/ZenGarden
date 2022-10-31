@@ -1,0 +1,6 @@
+
+style.css
+ [2m34:1[22m  [31m[31m✖[39m  Expected selector "h3" to come before selector "h2 h3"  [2mno-descending-specificity[22m
+
+1 problem (1 error, 0 warnings)
+

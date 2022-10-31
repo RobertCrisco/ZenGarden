@@ -7,7 +7,7 @@
   
 }
 
-@mixin body-text ($font-size: 1em, $line-height:normal) {
+@mixin body-text ($font-size: 1em,$line-height:normal) {
   font-weight: normal;
   font-size: $font-size;
   line-height: $line-height;
@@ -27,7 +27,7 @@
 
 // Styles that should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
 
-h2, h3, h3 h4 {
+h2 h3 h4 {
   @include header-text;
   
 }

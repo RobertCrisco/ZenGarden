@@ -1,0 +1,12 @@
+
+style.css
+  [2m1:3[22m   [31m[31m✖[39m  Expected newline after ","                                          [2mselector-list-comma-newline-after[22m     
+  [2m1:7[22m   [31m[31m✖[39m  Expected newline after ","                                          [2mselector-list-comma-newline-after[22m     
+ [2m39:3[22m   [31m[31m✖[39m  Unexpected longhand value "1em 0 0.5em 0" instead of "1em 0 0.5em"  [2mshorthand-property-no-redundant-values[22m
+ [2m42:1[22m   [31m[31m✖[39m  Expected selector "h4" to come before selector "h3 h4"              [2mno-descending-specificity[22m             
+ [2m50:7[22m   [31m[31m✖[39m  Expected quotes around "banner"                                     [2mselector-attribute-quotes[22m             
+ [2m56:3[22m   [31m[31m✖[39m  Unexpected longhand value "1em 1em 1em 1em" instead of "1em"        [2mshorthand-property-no-redundant-values[22m
+ [2m65:38[22m  [31m[31m✖[39m  Unexpected missing end-of-source newline                            [2mno-missing-end-of-source-newline[22m
+
+7 problems (7 errors, 0 warnings)
+

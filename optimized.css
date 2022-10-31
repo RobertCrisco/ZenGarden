@@ -1,0 +1,58 @@
+/*** uncss> filename: https://robertcrisco.github.io/ZenGarden/style.css ***/
+h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: normal;
+}
+
+a {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+}
+
+h1 {
+  background: #483434;
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 0.5em 1em;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 1em 0 0.5em 0;
+}
+
+[role=banner] {
+  text-align: left;
+}
+
+.summary {
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+}
+
+html {
+  padding: 0;
+}
+
+body {
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
