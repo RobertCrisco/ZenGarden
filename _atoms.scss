@@ -34,13 +34,12 @@ h2 h3 h4 {
 
 p{
   @include body-text;
-  @include p-text;
+
 }
 
 a {
   @include body-text;
-  @include a-text;
-}
+  }
 
 
 

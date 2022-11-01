@@ -1,11 +1,89 @@
-.into {
+@use 'variables' as *;
+@use 'atoms';
+@use 'molecules';
+
+.page-wrapper { 
+
+	
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+		width: 70%;
+	}
+
+header h1 { 
+	
+  display: block;
+	width: 200px;
+
+
+		}
+
+header {
+	padding-top: 20px;
+	
   
 }
 
-.sidebar {
+.summary {
+	
+	 
+	text-align: center;
+	float: center;
+  
+	}
 
+
+.preamble {
+	clear: right; 
+	
+	}
+.supporting {	
+	
+  width: 600px;
+	}
+
+.footer { 
+	text-align: center; 
+	 display: flex;
+  	justify-content: left;
+	
+  
+	}
+
+footer a.zen-validate-html {
+    padding: 25px;
+    background-position: center;
+    background-image: url("images/html-5.png");
+    background-repeat: no-repeat;
 }
 
-.zen-resources{
-    
+footer a.zen-validate-css {
+    padding: 25px;
+    background-position: center;
+    background-image: url("images/css-3.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-license {
+    padding: 25px;
+    background-position: center;
+    background-image: url("images/cc.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-accessibility {
+    padding: 25px;
+    background-position: center;
+    background-image: url("images/info.png");
+    background-repeat: no-repeat;
+}
+
+footer a.zen-github {
+    padding: 25px;
+    background-position: center;
+    background-image: url("images/github.png");
+    background-repeat: no-repeat;
 }
