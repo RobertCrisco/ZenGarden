@@ -6,7 +6,7 @@
 
 	
 	margin: 0; 
-	position: relative;
+	position: flex;
 	}
 
 .intro { 
@@ -61,37 +61,34 @@ footer {
 
 }
 
-footer a.zen-validate-html {
+footer a {
+    text-decoration: none;
+    color: $color-black;
     padding: 25px;
     background-position: center;
-    background-image: url("images/html-5.png");
     background-repeat: no-repeat;
+}
+
+footer a.zen-validate-html {
+  background-image: url("images/html-5.png");
+    
 }
 
 footer a.zen-validate-css {
-    padding: 25px;
-    background-position: center;
-    background-image: url("images/css-3.png");
-    background-repeat: no-repeat;
+  background-image: url("images/css-3.png");
+    
 }
 
 footer a.zen-license {
-    padding: 25px;
-    background-position: center;
-    background-image: url("images/cc.png");
-    background-repeat: no-repeat;
+  background-image: url("images/cc.png");
+    
 }
 
 footer a.zen-accessibility {
-    padding: 25px;
-    background-position: center;
-    background-image: url("images/info.png");
-    background-repeat: no-repeat;
+  background-image: url("images/info.png");
+    
 }
 
 footer a.zen-github {
-    padding: 25px;
-    background-position: center;
-    background-image: url("images/github.png");
-    background-repeat: no-repeat;
+  background-image: url("images/github.png");
 }
