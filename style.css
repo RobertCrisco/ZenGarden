@@ -133,12 +133,10 @@ header {
 }
 
 footer {
-  margin-top: 50px;
   text-align: center;
   display: flex;
   justify-content: center;
   background-color: rgb(255, 0, 51);
-  align-items: center;
   margin-bottom: 50px;
 }
 
