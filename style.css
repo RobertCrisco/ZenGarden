@@ -58,9 +58,7 @@ h4 {
 
 @media screen and (min-width: 800px) {
   .sidebar {
-    
-     background-image: url("images/zensand.jpeg");
-    
+    background-color: rgb(255, 140, 0);
     margin-left: 600px;
     position: absolute;
     top: 0;
