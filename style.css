@@ -127,22 +127,25 @@ header {
   background-color: rgb(0, 42, 255);
 }
 
-.supporting {
+.main {
   width: 75%;
   background-color: rgb(45, 107, 87);
 }
 
-.footer {
+footer {
+  margin-top: 50px;
   text-align: center;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   background-color: rgb(255, 0, 51);
-  align-items: flex-end;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 footer a.zen-validate-html {
   padding: 25px;
   background-position: center;
+  background-image: url("images/html-5.png");
   background-repeat: no-repeat;
 }
 
