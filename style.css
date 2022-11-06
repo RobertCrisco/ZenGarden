@@ -7,12 +7,15 @@ p {
   font-weight: normal;
   font-size: 1em;
   line-height: normal;
+  text-align: justify;
 }
 
 a {
   font-weight: normal;
   font-size: 1em;
   line-height: normal;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 h1 {
@@ -58,11 +61,38 @@ h4 {
 
 @media screen and (min-width: 800px) {
   .sidebar {
-    background-color: rgb(255, 140, 0);
     margin-left: 600px;
     position: absolute;
     top: 0;
     right: 0;
+  }
+  .sidebar div.design-selection {
+    background: transparent url(images/sidebar.jpg) center/cover;
+    color: #483434;
+    text-decoration: none;
+    width: 300px;
+  }
+  .sidebar div.design-archives {
+    background: transparent url(images/sidebararchive.jpg) center/cover;
+    color: #483434;
+    text-decoration: none;
+    width: 300px;
+  }
+  .sidebar div.zen-resources {
+    background: transparent url(images/zenresources.jpg) center/cover;
+    color: #483434;
+    text-decoration: none;
+    width: 300px;
+  }
+  .sidebar li {
+    list-style-type: none;
+    font-style: bold;
+    font-weight: 600;
+  }
+  .sidebar li a:link, .sidebar li a:visited {
+    color: #483434;
+    font-size: large;
+    font-style: bold;
   }
 }
 .page-wrapper {

@@ -34,11 +34,14 @@ h2 h3 h4 {
 
 p{
   @include body-text;
+  text-align: justify;
 
 }
 
 a {
   @include body-text;
+  text-decoration: none;
+  font-weight: bold;
   }
 
 
