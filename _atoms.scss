@@ -4,6 +4,7 @@
 
 @mixin header-text {
   font-weight: bold;
+  font-family: $font-header;
   
 }
 
@@ -11,6 +12,7 @@
   font-weight: normal;
   font-size: $font-size;
   line-height: $line-height;
+  font-family: $font-body;
 }
 
 @mixin button-link {
@@ -32,9 +34,13 @@ h2 h3 h4 {
   
 }
 
+
+
 p{
   @include body-text;
   text-align: justify;
+  line-height: 2;
+  margin: 0.75em;
 
 }
 
@@ -43,6 +49,11 @@ a {
   text-decoration: none;
   font-weight: bold;
   }
+
+a:hover, a:focus {
+  text-decoration: underline;
+
+}
 
 
 
